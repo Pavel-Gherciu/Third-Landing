@@ -1,0 +1,87 @@
+
+.header {
+  padding: 0px 50px 200px;
+  background-image: url('../images/t3/headerbg.png');
+  @include bgsettings;
+}
+
+.headermenu {
+  @include maxwidth;
+}
+
+.headericon {
+  margin-left: 10px;
+  float: left;
+  margin-top: 45px;
+}
+
+.headermenulist {
+  float: right;
+}
+
+.headermenutext {
+  float: left;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+
+.headermenutextlast {
+  float: left;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+
+
+.linking {
+  text-decoration: none;
+  color: #6e7274;
+}
+
+.colorshift:hover {
+  color: $text-color1;
+}
+
+
+
+.headertext {
+  font-size: 52px;
+  color: $text-color1;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 226px;
+  @include maxwidth;
+}
+
+
+.headertext2 {
+  font-size: 35px;
+  color: $text-color1;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 25px;
+  @include maxwidth;
+  padding-bottom: 70px;
+}
+
+
+.headerbuttonpos {
+  text-align: center;
+  padding-bottom: 270px;
+}
+
+.headerbutton {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: $text-color1;
+  font-weight: 400;
+  padding: 20px 45px;
+  text-align: center;
+  background-color: #00b09c;
+  border-radius: 5px;
+  text-decoration: none;
+}

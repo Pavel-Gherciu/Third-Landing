@@ -1,0 +1,84 @@
+.services {
+  background-color: $bg-color1;
+  border: 1px solid $text-color4;
+}
+
+
+.servicescontent {
+  @include maxwidth;
+}
+
+.servicestitle {
+  padding-top: 70px;
+  font-size: 42px;
+  color: $text-color2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.servicesunder {
+  padding-top: 10px;
+  font-size: 20px;
+  color: $text-color3;
+  font-weight: 300;
+  text-align: center;
+}
+
+.apps {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.app {
+  max-width: 320px;
+  float: left;
+  text-align: center;
+}
+
+.appcontent1 {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+
+.appcontent2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.appcontent3 {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+svg text#icon {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 42px;
+  fill: $bg-color2;
+}
+
+
+svg circle#iconborder {
+  stroke-width: 2px;
+  stroke: $text-color4; 
+}
+
+.apptitle {
+  padding-top: 30px;
+  font-size: 32px;
+  color: $text-color2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.appdesc {
+  line-height: 20px;
+  padding-top: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: $text-color3;
+  font-weight: 400;
+  text-align: left;
+}
+
+

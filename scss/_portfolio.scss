@@ -1,0 +1,278 @@
+.portfolio {
+  background-color: $text-color1;
+}
+
+.portfoliocontent {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+.portfoliotitle {
+  padding-top: 70px;
+  font-size: 42px;
+  color: $text-color2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.portfoliounder {
+  padding-top: 10px;
+  padding-bottom: 70px;
+  font-size: 20px;
+  color: $text-color3;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+
+.port1 {
+  position: relative;
+  float: left;
+
+}
+
+.img1 {
+  display: block;
+}
+
+.port1bg {
+  background-color: $bg-color2;
+  @include portpos;
+}
+
+.port1:hover .port1bg {
+  opacity: 0.7;
+}
+
+
+.port1text1 {
+  padding-top: 115px;
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+
+.port1textpos {
+  @include portpos
+}
+
+.port1textunder {
+  opacity: 0.7;
+  padding-top: 10px;
+  font-size: 20px;
+  color: $text-color1;
+  font-weight: 300;
+  text-align: center;
+}
+
+.port1:hover .port1textpos {
+  opacity: 1;
+}
+
+
+.port2 {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+
+}
+
+.img2 {
+  display: block;
+}
+
+.port2bg {
+  background-color: $bg-color2;
+  @include portpos;
+}
+
+.port2:hover .port2bg {
+  opacity: 0.7;
+}
+
+
+.port2text1 {
+  padding-top: 115px;
+  font-size: 42px;
+  color: $text-color1;
+  font-weight: 900;
+}
+
+
+.port2textpos {
+  @include portpos
+}
+
+.port2textunder {
+  opacity: 0.7;
+  padding-top: 10px;
+  font-size: 20px;
+  color: $text-color1;
+  font-weight: 300;
+  text-align: center;
+}
+
+.port2:hover .port2textpos {
+  opacity: 1;
+}
+
+
+.port3 {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+
+}
+
+.img3 {
+  display: block;
+}
+
+.port3bg {
+  transition: .5s ease;
+  background-color: $bg-color2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+
+}
+
+.port3:hover .port3bg {
+  opacity: 0.7;
+}
+
+
+.port3text1 {
+  padding-top: 115px;
+  font-size: 42px;
+  color: $text-color1;
+  font-weight: 900;
+}
+
+
+.port3textpos {
+  @include portpos
+}
+
+.port3textunder {
+  opacity: 0.7;
+  padding-top: 10px;
+  font-size: 20px;
+  color: $text-color1;
+  font-weight: 300;
+  text-align: center;
+}
+
+.port3:hover .port3textpos {
+  opacity: 1;
+}
+
+
+
+.port4 {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.img4 {
+  display: block;
+}
+
+.port4bg {
+  background-color: $bg-color2;
+  @include portpos;
+}
+
+.port4:hover .port4bg {
+  opacity: 0.7;
+}
+
+
+.port4text1 {
+  padding-top: 115px;
+  font-size: 42px;
+  color: $text-color1;
+  font-weight: 900;
+}
+
+
+.port4textpos {
+  @include portpos;
+}
+
+.port4textunder {
+  opacity: 0.7;
+  padding-top: 10px;
+  font-size: 20px;
+  color: $text-color1;
+  font-weight: 300;
+  text-align: center;
+}
+
+.port4:hover .port4textpos {
+  opacity: 1;
+}
+
+
+.port5 {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.img5 {
+  display: block;
+}
+
+.port5bg {
+  background-color: $bg-color2;
+  @include portpos;
+}
+
+.port5:hover .port5bg {
+  opacity: 0.7;
+}
+
+
+.port5text1 {
+  padding-top: 115px;
+  font-size: 42px;
+  color: $text-color1;
+  font-weight: 900;
+}
+
+
+.port5textpos {
+  @include portpos
+}
+
+.port5textunder {
+  opacity: 0.7;
+  padding-top: 10px;
+  font-size: 20px;
+  color: $text-color1;
+  font-weight: 300;
+  text-align: center;
+}
+
+.port5:hover .port5textpos {
+  opacity: 1;
+}
+
+.portfolioimages {
+  padding-bottom: 100px;
+}

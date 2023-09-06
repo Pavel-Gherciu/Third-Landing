@@ -1,0 +1,23 @@
+.footer {
+  background-color: $text-color2;
+}
+
+.footercontent {
+  @include maxwidth;
+}
+
+.footerlogo {
+  float: left;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footercredits {
+  float: right;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 13px;
+  color: $text-color3;
+  font-weight: 400;
+}

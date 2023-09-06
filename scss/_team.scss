@@ -1,0 +1,152 @@
+.team {
+  background-color: $bg-color1;
+  border: 1px solid $text-color4;
+}
+
+.teamcontent {
+  @include maxwidth;
+}
+
+
+.teamtitle {
+  padding-top: 70px;
+  font-size: 42px;
+  color: $text-color2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.teamunder {
+  padding-top: 12px;
+  font-size: 20px;
+  color: $text-color3;
+  font-weight: 300;
+  text-align: center;
+}
+
+.teamavatars {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+
+.team1 {
+  float: left;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.team1avatar {
+  position: relative;
+}
+
+.team1bg {
+  background-color: $bg-color2;
+  @include teampos;
+}
+.team1avatar:hover .team1bg {
+  opacity: 0.7;
+}
+
+
+.team1iconpos {
+  @include teampos;
+}
+
+.team1icon {
+  padding-top: 124px;
+}
+
+.team1avatar:hover .team1iconpos {
+  opacity: 1;
+}
+
+.teamtitle {
+  padding-top: 50px;
+  font-size: 32px;
+  color: $text-color2;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+.teamtext {
+  padding-top: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: $text-color3;
+  font-weight: 400;
+  text-align: left;
+  line-height: 20px;
+}
+
+
+
+.team2 {
+  float: left;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.team2avatar {
+  position: relative;
+}
+
+.team2bg {
+  background-color: $bg-color2;
+  @include teampos;
+}
+
+
+.team2avatar:hover .team2bg {
+  opacity: 0.7;
+}
+
+
+.team2iconpos {
+  @include teampos;
+}
+
+.team2icon {
+  padding-top: 124px;
+}
+
+.team2avatar:hover .team2iconpos {
+  opacity: 1;
+}
+
+
+
+
+.team3 {
+  float: left;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.team3avatar {
+  position: relative;
+}
+
+.team3bg {
+  background-color: $bg-color2;
+  @include teampos;
+}
+
+
+.team3avatar:hover .team3bg {
+  opacity: 0.7;
+}
+
+
+.team3iconpos {
+  @include teampos;
+}
+
+.team3icon {
+  padding-top: 124px;
+}
+
+.team3avatar:hover .team3iconpos {
+  opacity: 1;
+}

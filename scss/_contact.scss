@@ -1,0 +1,169 @@
+.contact {
+  background-image: url('../images/t3/contactbg.png');
+  @include bgsettings;
+}
+
+.contactcontent {
+  @include maxwidth;
+}
+
+
+.contacttitle {
+  padding-top: 70px;
+  font-size: 42px;
+  color: $text-color2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.contactunder {
+  padding-top: 12px;
+  font-size: 20px;
+  color: $text-color3;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.contactfields {
+  margin-left: 20px;
+  padding-top: 70px;
+  float: left;
+  max-width: 640px;
+  padding-bottom: 100px;
+}
+
+.name {
+  float: left;
+  padding-left: 25px;
+  width: 310px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: $text-color1;
+  border: 1px solid $text-color4;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.name::placeholder {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #cccccc;
+  font-weight: 400;
+  text-align: left;
+}
+
+
+.email {
+  margin-left: 20px;
+  float: left;
+  padding-left: 25px;
+  width: 310px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: $text-color1;
+  border: 1px solid $text-color4;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left;
+}
+
+
+.email::placeholder {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: $text-color5;
+  font-weight: 400;
+  text-align: left;
+}
+
+.message {
+  padding-left: 25px;
+  margin-top: 20px;
+  width: 640px;
+  height: 221px;
+  border-radius: 5px;
+  background-color: $text-color1;
+  border: 1px solid $text-color4;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left;
+  resize: none;
+}
+
+
+.message::placeholder {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: $text-color5;
+  font-weight: 400;
+  text-align: left;
+}
+
+.buttonpos {
+  padding-top: 20px;
+}
+
+.contactbutton {
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: $bg-color2;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  color: $text-color1;
+  font-weight: 400;
+  text-align: center;
+}
+
+.company  {
+  padding-top: 70px;
+  float: left;
+  padding-left: 60px;
+}
+
+.companytitle {
+  font-size: 18px;
+  color: $text-color2;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+
+.companytext {
+  font-size: 14px;
+  color: $text-color3;
+  font-weight: 400;
+}
+
+.companyname {
+  padding-bottom: 7px;
+}
+
+.companyaddress {
+  padding-bottom: 30px;
+}
+
+.companyphone {
+  padding-bottom: 10px;
+}
+
+.companyicons {
+  padding-top: 35px;
+}
+
+.companyicon {
+  float: left;
+}
+
+.iconspace {
+  margin-left: 18px;
+}
